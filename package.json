@@ -1,0 +1,80 @@
+{
+  "name": "react-klasha",
+  "version": "0.0.1",
+  "description": "This is an reactJS library for implementing klasha payment gateway",
+  "main": "dist/index.js",
+  "module": "dist/index.es.js",
+  "typings": "dist/index.d.ts",
+  "jsnext:main": "dist/index.es.js",
+  "scripts": {
+    "build": "rm -rf dist && rollup -c ",
+    "build:watch": "rm -rf dist && rollup -c --watch",
+    "format": "prettier --write '**/**/*.{js,}'",
+    "lint": "eslint --ext .js,.ts,.tsx,.jsx --ignore-path .eslintignore .",
+    "lint:fix": "npm run lint -- --fix",
+    "test": "jest --env=jsdom",
+    "test:watch": "jest --watch --verbose --env=jsdom"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dansteve/react-klasha.git"
+  },
+  "keywords": [
+    "Javascript",
+    "github",
+    "ReactJS",
+    "Open Source",
+    "payments",
+    "klasha",
+    "Gateway"
+  ],
+  "author": {
+    "email": "danstevea@gmail.com",
+    "name": "Dansteve Adekanbi",
+    "url": "https://github.com/dansteve",
+    "website": "https://meetdansteve.com/"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dansteve/react-klasha/issues"
+  },
+  "homepage": "https://github.com/dansteve/react-klasha#readme",
+  "peerDependencies": {
+    "react": "^15.0.0 || ^16.0.0",
+    "react-dom": "^15.0.0 || ^16.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.16",
+    "@babel/preset-env": "^7.12.16",
+    "@babel/preset-typescript": "^7.12.16",
+    "@rollup/plugin-commonjs": "^11.0.2",
+    "@rollup/plugin-node-resolve": "^7.1.1",
+    "@rollup/plugin-typescript": "^4.0.0",
+    "@testing-library/react": "^10.4.9",
+    "@testing-library/react-hooks": "^3.7.0",
+    "@types/jest": "^25.2.1",
+    "@types/react": "^16.14.4",
+    "@types/react-dom": "^16.9.11",
+    "@typescript-eslint/eslint-plugin": "^2.25.0",
+    "@typescript-eslint/parser": "^2.25.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.15.0",
+    "eslint-plugin-jest": "^23.20.0",
+    "eslint-plugin-prettier": "^3.3.1",
+    "eslint-plugin-react": "^7.22.0",
+    "jest": "^26.6.3",
+    "prettier": "^2.2.1",
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0",
+    "react-test-renderer": "^16.14.0",
+    "rollup": "^2.39.0",
+    "rollup-plugin-babel": "^4.4.0",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-typescript2": "^0.26.0",
+    "ts-jest": "^25.3.1",
+    "typescript": "^3.9.9"
+  }
+}
