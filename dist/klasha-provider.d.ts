@@ -1,4 +1,4 @@
-/// <tx_ref types="react" />
+/// <reference types="react" />
 import { KlashaOptionsProps } from "./types";
 interface KlashaProviderProps extends KlashaOptionsProps {
     children: JSX.Element;

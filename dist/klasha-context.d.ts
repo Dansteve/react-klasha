@@ -1,4 +1,4 @@
-/// <tx_ref types="react" />
+/// <reference types="react" />
 declare type IKlashaContext = {
     initializePayment: Function;
     callBack: Function;
