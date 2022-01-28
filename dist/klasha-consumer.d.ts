@@ -4,5 +4,5 @@ interface KlashaConsumerProps extends KlashaOptionsProps {
     children: Function;
     callBack?: Function;
 }
-declare const KlashaConsumer: React.ForwardRefExoticComponent<KlashaConsumerProps & React.RefAttributes<unknown>>;
+declare const KlashaConsumer: React.ForwardRefExoticComponent<KlashaConsumerProps & React.RefAttributes<KlashaOptionsProps>>;
 export default KlashaConsumer;
